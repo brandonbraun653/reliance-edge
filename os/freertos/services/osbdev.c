@@ -142,7 +142,7 @@
     DiskDiscard() functions used below are defined in these header files:
 */
 #if BDEV_EXAMPLE_IMPLEMENTATION == BDEV_CUSTOM
-  #include "osbdev_custom.h"
+  #include <Chimera/modules/memory/red_stub.hpp>
 #elif BDEV_EXAMPLE_IMPLEMENTATION == BDEV_FLASHFX
   #if RED_KIT == RED_KIT_GPL
     #error "FlashFX block device only supported in commercial versions of Reliance Edge."
